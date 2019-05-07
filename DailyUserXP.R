@@ -1,4 +1,4 @@
-#This is how to download User XP Social Engagement Data from the Mee6 bot. 
+#This is how to download User XP Social Engagement Data from the Mee6 bot.Made by Drew Walker from the University of Florida 
 #Daily scheduling pull is recommended though can be adjusted 
 #first get the packages however you want either packrat or just install them with install.package()
 packrat::init
