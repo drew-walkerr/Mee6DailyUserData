@@ -4,9 +4,6 @@
 library(tidyverse)
 library(plyr)
 library(jsonlite)
-Data <- fromJSON("LEADERBOARD Plugins Levels MEE6 API LINK")
-Players <- Data$players
-is.data.frame(Players)
 #Now I'm gonna pull the data into R from the JSON file html link. 
 Data <- fromJSON("LEADERBOARD Plugins Levels MEE6 API LINK")
 #This data set has a lot of different variables and components, so let me choose the one I want-- $players
